@@ -1,4 +1,4 @@
-package ru.hse.spb.softwareengineering.blackjack;
+package ru.hse.spb;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../../../../../resources/sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        Parent root = FXMLLoader.load(getClass().getResource("mainscreen.fxml"));
+        primaryStage.setTitle("Blackjack");
+        primaryStage.setScene(new Scene(root, 700, 700));
         primaryStage.show();
     }
 
