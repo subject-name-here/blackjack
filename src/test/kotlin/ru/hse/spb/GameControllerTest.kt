@@ -1,4 +1,4 @@
-package main.ru.hse.spb
+package ru.hse.spb
 
 import org.junit.Assert.*
 

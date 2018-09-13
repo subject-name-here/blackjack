@@ -1,4 +1,4 @@
-package main.ru.hse.spb
+package ru.hse.spb
 
 enum class CardValue(val value: Int) {
     ACE(1),
