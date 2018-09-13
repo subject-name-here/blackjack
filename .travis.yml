@@ -1,6 +1,7 @@
 language: java
-jdk: oraclejdk8
-before_install:
-  - chmod +x buildscript
-script: ./buildscript
-os: linux
+sudo: false
+
+script: mvn clean verify
+
+after_success:
+- bash <(curl -s https://codecov.io/bash)
