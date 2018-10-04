@@ -11,7 +11,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import javafx.util.Pair;
 
 import java.util.List;
 
@@ -46,7 +45,7 @@ public class Main extends Application {
         border.setRight(buttons);
         border.setPadding(new Insets(15, 20, 10, 10));
 
-
+/*
         standButton.setOnAction(e -> {
             standButton.setDisable(true);
             hitButton.setDisable(true);
@@ -77,7 +76,7 @@ public class Main extends Application {
 
         userScore.setText(Integer.toString(handPair.getKey().getScore()));
         dealerScore.setText(Integer.toString(handPair.getValue().getScore()));
-
+*/
 
         return new Scene(border, 400, 275);
     }
