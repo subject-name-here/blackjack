@@ -40,6 +40,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+<<<<<<< Updated upstream
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
             <version>1.2.70</version>
@@ -51,6 +52,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+=======
+>>>>>>> Stashed changes
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
@@ -71,7 +74,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>8.8.3</version>
                 <configuration>
-                    <mainClass>your.package.with.Launcher</mainClass>
+                    <mainClass>ru.hse.spb.Main</mainClass>
                 </configuration>
             </plugin>
             <plugin>
