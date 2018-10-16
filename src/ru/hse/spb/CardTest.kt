@@ -1,7 +1,10 @@
-package main.ru.hse.spb
+package ru.hse.spb
 
 import org.junit.Assert.*
 import org.junit.Test
+import ru.hse.spb.Card
+import ru.hse.spb.CardSuit
+import ru.hse.spb.CardValue
 
 class CardTest {
     @Test
